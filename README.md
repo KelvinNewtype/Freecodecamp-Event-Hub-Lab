@@ -10,6 +10,7 @@ Event Hub is a simple and straightforward web project that organizes events into
 - 📅 **Upcoming Events**: Showcasing future events.  
 - 🕰️ **Past Events**: Highlighting completed events, including event descriptions and images.  
 - 🌐 **Semantic HTML**: Clear and readable structure for better accessibility.  
+- 🎨 **CSS Styling**: Provides a clean and modern look, making the events visually appealing.  
 
 ---
 
@@ -31,17 +32,31 @@ The following user stories are fulfilled in this project:
 
 ---
 
+## 💅 CSS Styling  
+
+The project uses CSS for styling to ensure a visually appealing and user-friendly interface. Key styling features include:
+
+- **Responsive Design**: Ensures the layout adjusts smoothly across different devices and screen sizes.
+- **Modern Typography**: Utilizes web-safe fonts to enhance readability.
+- **Color Scheme**: Applies a consistent color palette for a cohesive look and feel.
+- **Hover Effects**: Adds subtle hover effects to navigation links and buttons for better interactivity.
+- **Flexbox**: Utilizes Flexbox for aligning and distributing space among items in the layout.
+
+---
+
 ## 📂 Project Structure  
 
-The project consists of a single HTML file:  
+The project consists of an HTML file and a CSS file:
 
 ```
 EventHub/
 │
-└── eventhub.html
+├── eventhub.html
+└── styles.css
 ```
 
 - 🗂️ **eventhub.html**: Contains the entire structure of the web page, built with semantic HTML elements.  
+- 🎨 **styles.css**: Contains the styling rules for the web page, ensuring a modern and clean appearance.  
 
 ---
 
@@ -70,4 +85,6 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 
 ---
 
-**newtype out ✌️**  
+**newtype out ✌️**
+
+I hope this helps! Let me know if there's anything else you'd like to add or change.
