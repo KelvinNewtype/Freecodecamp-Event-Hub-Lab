@@ -1,3 +1,5 @@
+Sure, here's the updated version that includes information about the CSS being added later as a personal reference:
+
 # 🎉 Event Hub 🎉  
 
 Event Hub is a simple and straightforward web project that organizes events into two categories: **Upcoming Events** and **Past Events**. This project is part of the **FreeCodeCamp Full-Stack Developer Curriculum**, focusing on practicing semantic HTML and structuring web pages.  
@@ -10,7 +12,7 @@ Event Hub is a simple and straightforward web project that organizes events into
 - 📅 **Upcoming Events**: Showcasing future events.  
 - 🕰️ **Past Events**: Highlighting completed events, including event descriptions and images.  
 - 🌐 **Semantic HTML**: Clear and readable structure for better accessibility.  
-- 🎨 **CSS Styling**: Provides a clean and modern look, making the events visually appealing.  
+- 🎨 **CSS Styling (Added Later)**: While the original FreeCodeCamp lab test doesn't require CSS, I added it as a personal reference to provide a clean and modern look, making the events visually appealing.  
 
 ---
 
@@ -34,7 +36,7 @@ The following user stories are fulfilled in this project:
 
 ## 💅 CSS Styling  
 
-The project uses CSS for styling to ensure a visually appealing and user-friendly interface. Key styling features include:
+While the original FreeCodeCamp lab test doesn't require CSS, it has been added here by me as a personal reference. You should add CSS of your own later when you've gotten a reasonable amount of proficiency in CSS. Key styling features include:
 
 - **Responsive Design**: Ensures the layout adjusts smoothly across different devices and screen sizes.
 - **Modern Typography**: Utilizes web-safe fonts to enhance readability.
@@ -87,4 +89,4 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 
 **newtype out ✌️**
 
-I hope this helps! Let me know if there's anything else you'd like to add or change.
+I hope this meets your needs! Let me know if there are any other adjustments or additions you'd like to make.
