@@ -2,8 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Event Hub | Discover Tech Events & Workshops</title>
+  <meta name="description" content="Stay updated with the latest tech events, coding workshops, and tech meetups. Join Event Hub to connect with tech enthusiasts and professionals.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph Meta Tags for Social Media Sharing -->
+  <meta property="og:title" content="Event Hub | Discover Tech Events & Workshops">
+  <meta property="og:description" content="Join Event Hub to stay updated on upcoming tech events, workshops, and meetups.">
+  <meta property="og:image" content="https://yourwebsite.com/images/event-hub-og-image.jpg">
+  <meta property="og:url" content="https://yourwebsite.com">
   <link rel="stylesheet" href="styles.css">
-  <title>Event Hub</title>
 </head>
 <body>
   <!-- Header Section -->
@@ -13,6 +20,9 @@
       <ul>
         <li><a href="#upcoming-events">Upcoming Events</a></li>
         <li><a href="#past-events">Past Events</a></li>
+        <!-- Add links to enrich internal linking -->
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
@@ -24,13 +34,16 @@
       <h2>Upcoming Events</h2>
       <article>
         <h3>Spring Coding Workshop</h3>
-        <p>Join us for a fun and engaging workshop on modern web development techniques.</p>
+        <p>Join us for a fun and engaging workshop on modern web development techniques. Perfect for both beginners and seasoned developers.</p>
         <p><strong>Date:</strong> March 15, 2025</p>
+        <!-- Include a call-to-action button -->
+        <a href="/events/spring-coding-workshop" class="btn">Learn More & Register</a>
       </article>
       <article>
         <h3>Annual Tech Meetup</h3>
-        <p>Network with industry professionals and learn about the latest tech trends.</p>
+        <p>Network with industry professionals and learn about the latest tech trends. Don't miss keynote sessions from leading tech innovators.</p>
         <p><strong>Date:</strong> April 20, 2025</p>
+        <a href="/events/annual-tech-meetup" class="btn">Learn More & Register</a>
       </article>
     </section>
 
@@ -39,17 +52,70 @@
       <h2>Past Events</h2>
       <article>
         <h3>Data Science Bootcamp</h3>
-        <p>An intensive 3-day bootcamp on data analysis and machine learning.</p>
+        <p>An intensive 3-day bootcamp on data analysis and machine learning. Participants worked on real-world projects and datasets.</p>
         <p><strong>Date:</strong> December 10, 2024</p>
-        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Participants in a data science bootcamp">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Participants working at the Data Science Bootcamp">
       </article>
       <article>
         <h3>AI in Business Conference</h3>
-        <p>Exploring the impact of artificial intelligence on modern business strategies.</p>
+        <p>Exploring the impact of artificial intelligence on modern business strategies. Industry experts shared insights on AI-driven innovation.</p>
         <p><strong>Date:</strong> October 5, 2024</p>
-        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Speakers at an AI conference">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Speakers presenting at the AI in Business Conference">
       </article>
     </section>
   </main>
+
+  <!-- Structured Data Markup -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Spring Coding Workshop",
+      "startDate": "2025-03-15T09:00",
+      "endDate": "2025-03-15T17:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Tech Hub Center",
+        "address": "123 Innovation Drive, Tech City"
+      },
+      "image": "https://yourwebsite.com/images/spring-coding-workshop.jpg",
+      "description": "A hands-on workshop on modern web development techniques.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://yourwebsite.com/events/spring-coding-workshop",
+        "price": "99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2024-12-01T00:00"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Annual Tech Meetup",
+      "startDate": "2025-04-20T10:00",
+      "endDate": "2025-04-20T16:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Innovation Hall",
+        "address": "456 Tech Avenue, Tech City"
+      },
+      "image": "https://yourwebsite.com/images/annual-tech-meetup.jpg",
+      "description": "Network with professionals and explore the latest in technology trends.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://yourwebsite.com/events/annual-tech-meetup",
+        "price": "Free",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+  </script>
 </body>
 </html>
