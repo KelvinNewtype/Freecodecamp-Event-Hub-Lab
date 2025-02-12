@@ -86,5 +86,3 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 ---
 
 **Newtype out ✌️**
-
-I hope this meets your needs! Let me know if there are any other adjustments or additions you'd like to make.
