@@ -1,4 +1,4 @@
-Push to production 
+Push to vercel 
 
 # 🎉 Event Hub 🎉  
 
