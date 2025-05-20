@@ -67,6 +67,7 @@ vercel deploy
 2. Make changes
 3. Test locally
 4. Deploy to Vercel
+5. Test features
 
 ## Contribution Guidelines 🤝
 
