@@ -1,4 +1,4 @@
-# Event Hub 🎉
+# Event Hub 
 
 A streamlined web application for organizing and displaying events, built as part of the FreeCodeCamp Full-Stack Developer Curriculum.
 
