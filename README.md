@@ -2,7 +2,7 @@
 
 A streamlined web application for organizing and displaying events, built as part of the FreeCodeCamp Full-Stack Developer Curriculum.
 
-## Features ✨
+## Features 
 
 - 📅 Upcoming Events Section
 - 🕰️ Past Events Archive
