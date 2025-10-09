@@ -48,7 +48,7 @@ EventHub/
 - Interactive hover effects
 - Flexbox implementation
 
-## Quick Start 🚀
+## Quick Start 
 
 ```bash
 # Clone repository
