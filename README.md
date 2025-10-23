@@ -10,7 +10,7 @@ A streamlined web application for organizing and displaying events, built as par
 - 🎨 Modern CSS Styling
 - 📱 Responsive Design
 
-## Project Structure 📂
+## Project Structure 
 
 ```
 EventHub/
@@ -76,11 +76,11 @@ vercel deploy
 - Submit pull request
 - Follow coding standards
 
-## Deployment 📦
+## Deployment 
 
 This project is deployed on Vercel for optimal performance and reliability.
 
-## Acknowledgments 👏
+## Acknowledgments 
 
 - FreeCodeCamp Curriculum
 - Project Contributors
@@ -88,4 +88,4 @@ This project is deployed on Vercel for optimal performance and reliability.
 
 ---
 
-NEWTYPE OUT ✌️
+NEWTYPE OUT 
